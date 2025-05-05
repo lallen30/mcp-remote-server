@@ -1,5 +1,7 @@
 # MCP Remote Server (Node.js Version)
 
+[![smithery badge](https://smithery.ai/badge/@lallen30/mcp-remote-server)](https://smithery.ai/server/@lallen30/mcp-remote-server)
+
 This is a Node.js implementation of the BluestoneApps Coding Standards and Examples MCP server.
 
 ## Overview
@@ -15,6 +17,15 @@ This MCP server provides access to React Native coding standards and code exampl
 
 ## Installation
 
+### Installing via Smithery
+
+To install BluestoneApps Development Standards (Remote) for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@lallen30/mcp-remote-server):
+
+```bash
+npx -y @smithery/cli install @lallen30/mcp-remote-server --client claude
+```
+
+### Installing Manually
 1. Clone this repository
 2. Install dependencies:
    ```bash
@@ -66,3 +77,4 @@ For Windsurf IDE, update the `mcp_config.json` with:
     }
   }
 }
+```
